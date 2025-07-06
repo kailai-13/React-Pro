@@ -1,13 +1,12 @@
 import { useState } from 'react'
-import GroceryEcommerce from './components/eccomerse'
+import Navbar from './components/navbar'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     <>
-      <GroceryEcommerce/>
+      <Navbar/>
     </>
   )
 }
